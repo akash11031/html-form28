@@ -1,0 +1,1128 @@
+/* google font linking */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Global CSS start*/
+:root{
+    --btn: #2500f9;
+    --nil2: #684efb;
+    --nil3: #2563ff;
+    --nil4: #f4f4ff;
+    --sobuj: #3f975f;
+    --sobuj2: #e4ffee;
+    --pink: #f55767;
+    --pink2: #ffecef;
+    --sada:#ffffff;
+    --kala:#242f51;
+    --komola:#fcae61;
+    
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+
+}
+
+h1{
+    font-size: 60px;
+    color: var(--kala);
+    font-weight: 600;
+}
+
+h2{
+    font-size: 48px;
+    color: var(--kala);
+    font-weight: 600;
+}
+
+h3{
+    font-size: 40px;
+    color: var(--kala);
+    font-weight: 600;
+}
+
+h4{
+   font-size: 36px;
+   color: var(--kala);
+   font-weight: 600;
+}
+
+h5{
+     font-size: 30px;
+     color: var(--kala);
+     font-weight: bold;
+}
+
+h6{
+    font-size: 20px;
+    color: var(--kala);
+    font-weight: 600;
+}
+
+p{
+    font-size: 16px;
+    color:#616368;
+    font-weight: 400;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.btns{
+    
+}
+
+.btns a{
+    padding: 10px 16px;
+    border: 1px solid var(--btn);
+    border-radius: 200px;
+    background: var(--btn);
+    color: var(--sada);
+    
+}
+
+/* Global CSS start*/
+
+/* header section CSS start*/
+header .navbar{
+padding: 30px 0px;
+}
+
+header .navbar .navbar-brand{
+    font-size: 30px;
+     color: var(--kala);
+     font-weight: bold;
+}
+
+header .navbar .navbar-brand span{
+    color: var(--komola);
+}
+
+header .navbar .navbar-nav{
+    
+}
+
+.navbar .navbar-nav .nav-item{
+    
+}
+
+header .navbar .navbar-nav .nav-link{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--kala);
+    margin-right: 30px;
+    
+}
+
+header .navbar .navbar-nav .nav-link:hover{
+    color: var(--pink);
+    
+}
+
+header .navbar .navbar-nav .active{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--kala);
+    margin-right: 30px;
+    
+}
+
+
+/* header section CSS end*/
+
+/* benner section CSS start*/
+.bennar-section{
+ background: url(../img/bennar.png) center bottom no-repeat;
+ width: 100%;
+ height: 100vh;
+ margin-top: 5px;
+}
+
+.bennar-section .bnnr-heading{
+    
+
+}
+
+.bennar-section .bnnr-heading .i{
+    position: relative;
+    bottom: 50px;
+
+}
+
+
+.bennar-section .bnnr-heading .i i{
+
+    font-size: 18px;
+    color: var(--sada);
+    background: #fda925;
+    border: 1px solid #fda925;
+    padding: 7px 10px;
+    border-radius: 100px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.bennar-section .bnnr-heading .i span{
+    background: #e1eaed;
+    color: var(--kala);
+   padding: 3px 45px;
+   border-radius: 100px;
+   font-size: 18px;
+   position: absolute;
+    z-index: 0;
+ 
+}
+
+.bennar-section .bnnr-heading h1{
+ margin-top: 180px;
+ width: 100%;
+}
+
+.bennar-section .bnnr-heading p{
+    font-size: 18px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.bennar-section .bnnr-heading .btns{
+
+}
+
+.bennar-section .bnnr-heading .btns a{
+
+}
+
+.bennar-section .bnnr-heading .btns span{
+ color: var(--btn);
+ font-size: 16px;
+ margin-left: 10px;
+}
+
+.bennar-section img{
+ height: 600px;
+ margin-left: 45%;
+}
+
+
+/* benner section CSS end*/
+
+/* company section CSS start*/
+.company-section{
+
+}
+
+.company-section .company-names{
+    padding: 150px 50px 100px;
+}
+
+
+.company-section .company-names p{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.company-section .company-names ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.company-section .company-names ul .c-1{
+    padding-top: 30px;
+}
+
+
+.company-section .company-names ul .c-2{
+    
+}
+
+
+.company-section .company-names ul .c-3{
+    padding-top: 10px;
+}
+
+
+.company-section .company-names ul .c-4{
+    
+}
+
+
+.company-section .company-names ul .c-5{
+    padding-top: 30px;
+}
+
+
+.company-section .company-names ul .c-1{
+    
+}
+
+
+/* company section CSS end*/
+
+/* features section CSS start*/
+.features{
+ margin-bottom: 200px;
+}
+
+.features .features-img{
+    position: relative;
+}
+
+.features .features-img .f1{
+    position: absolute;
+    margin-top: 120px;
+}
+
+.features .features-img .f1 img{
+    height: 80vh;
+}
+
+.features .features-img .f2{
+    position: absolute; 
+    margin-left: 50px;
+   
+}
+
+.features .features-img .f2 img{
+    height: 110vh;
+   
+}
+
+
+.features .features-inner{
+margin-top: 40px;
+}
+
+.features .features-inner h4{
+ width: 50%;
+}
+
+.features .features-inner p{
+    width: 75%;
+}
+
+.features .features-inner-2{
+ display: flex;
+}
+
+.features .features-inner-2 .f-1 i{
+  color: var(--pink);
+  background: var(--pink2);
+  border-radius: 100%;
+  border: 1px solid var(--pink2);
+  padding: 10px 16px;
+  margin-right: 15px;
+  margin-top: 20px;
+  font-size: 50px;
+}
+
+.features .features-inner-2 .f-2 h6{
+ color: var(--pink);
+ padding-bottom: 5px;
+}
+
+.features .features-inner-2 .f-2 p{
+ width: 56%;
+}
+/*  */
+.features .features-inner-3{
+    display: flex;
+   }
+   
+   .features .features-inner-3 .f-1 i{
+     color: var(--nil3);
+     background: var(--nil4);
+     border-radius: 100%;
+     border: 1px solid var(--nil4);
+     padding: 10px 16px;
+     margin-right: 15px;
+     margin-top: 20px;
+     font-size: 50px;
+   }
+   
+   .features .features-inner-3 .f-2 h6{
+    color: var(--nil3);
+    padding-bottom: 5px;
+   }
+   
+   .features .features-inner-3 .f-2 p{
+    width: 56%;
+   }
+   /*  */
+   .features .features-inner-4{
+    display: flex;
+   }
+   
+   .features .features-inner-4 .f-1 i{
+     color: var(--sobuj);
+     background: var(--sobuj2);
+     border-radius: 100%;
+     border: 1px solid var(--sobuj2);
+     padding: 10px 12px;
+     margin-right: 15px;
+     margin-top: 20px;
+     font-size: 50px;
+   }
+   
+   .features .features-inner-4 .f-2 h6{
+    color: var(--sobuj);
+    padding-bottom: 5px;
+   }
+   
+   .features .features-inner-4 .f-2 p{
+    width: 56%;
+   }
+/* features section CSS end*/
+
+/*  jackpots section CSS start*/
+.jackpots{
+    margin-bottom: 100px;
+    margin-left: 90px;
+   }
+   
+   .jackpots .j-heading{
+    margin-bottom: 80px;
+    
+   }
+   
+   .jackpots .j-heading h3{
+    width: 80%;
+    
+   }
+   
+   .jackpots .j-heading p{
+       width: 75%;
+   }
+   
+   .jackpots .jackpots-inner-1 .f-1 i{
+    color: var(--pink);
+    background: var(--pink2);
+    border-radius: 100%;
+    border: 1px solid var(--pink2);
+    padding: 10px ;
+    margin-right: 15px;
+    margin-top: 20px;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .jackpots .jackpots-inner-1 .f-2 h6{
+   color: var(--pink);
+   padding-bottom: 5px;
+  }
+  
+  .jackpots .jackpots-inner-1 .f-2 p{
+    width: 80%;
+  }
+
+   /*  */
+      
+      .jackpots .jackpots-inner-2 .f-1 i{
+        color: var(--nil3);
+        background: var(--nil4);
+        border-radius: 100%;
+        border: 1px solid var(--nil4);
+        padding: 10px 15px;
+        margin-right: 15px;
+        margin-top: 20px;
+        font-size: 50px;
+        margin-bottom: 20px;
+      }
+      
+      .jackpots .jackpots-inner-2 .f-2 h6{
+       color: var(--nil3);
+       padding-bottom: 5px;
+      }
+      
+      .jackpots .jackpots-inner-2 .f-2 p{
+        width: 80%;
+      }
+      /*  */
+      
+      .jackpots .jackpots-inner-3 .f-1 i{
+        color: var(--sobuj);
+        background: var(--sobuj2);
+        border-radius: 100%;
+        border: 1px solid var(--sobuj2);
+        padding: 10px 12px;
+        margin-right: 15px;
+        margin-top: 20px;
+        font-size: 50px;
+        margin-bottom: 20px;
+      }
+      
+      .jackpots .jackpots-inner-3 .f-2 h6{
+       color: var(--sobuj);
+       padding-bottom: 5px;
+      }
+      
+      .jackpots .jackpots-inner-3 .f-2 p{
+       width: 80%;
+      }
+/*  jackpots section CSS end*/
+
+/*  Designed section CSS start*/
+.design-section{
+ padding-bottom: 50px;
+ border-bottom: 2px solid #f4f4f4;
+ margin-bottom: 100px;
+
+}
+
+.design-section .design-img img{
+ margin-left: -55px;
+}
+
+.design-section .design-inner{
+    margin-top: 140px;
+}
+
+.design-section .design-inner h4{
+    width: 60%;
+    padding-bottom: 20px;
+}
+
+.design-section .design-inner p{
+    width: 70%;
+    padding-bottom: 20px;
+}
+
+.design-section .design-inner .btns {
+    
+    margin-left: 28px;
+}
+
+.design-section .design-inner .btns a{
+     padding: 15px 30px;
+     font-weight: bold;
+}
+
+
+/*  Designed section CSS end*/
+
+/*  our app section CSS start*/
+.our-app{
+ text-align: center;
+}
+
+.our-app .our-app-heading{
+
+
+}
+
+.our-app .our-app-heading h4{
+ /* width: 40%; */
+  padding: 10px 30%;
+}
+
+.our-app .our-app-heading p{
+   /* width: 40%; */
+  padding: 10px 21%;
+    
+}
+
+.our-app .app-inner{
+ margin: 50px 0px 0px;
+}
+
+.our-app .app-inner-1 i{
+ font-size: 50px;
+ border: 1px solid var(--pink2);
+ border-radius: 100px;
+ background: var(--pink2);
+ padding: 15px;
+
+}
+
+.our-app .app-inner-2 i{
+ font-size: 50px;
+ border: 1px solid #eaf9ff;
+ border-radius: 100px;
+ background: #eaf9ff;
+ padding: 15px;
+
+}
+
+.our-app .app-inner-3 i{
+ font-size: 50px;
+ border: 1px solid #fff6d3;
+ border-radius: 100px;
+ background: #fff6d3;
+ padding: 15px;
+
+}
+
+.our-app .app-inner-4 i{
+ font-size: 50px;
+ border: 1px solid var(--sobuj2);
+ border-radius: 100px;
+ background: var(--sobuj2);
+ padding: 15px;
+
+}
+
+.our-app .app-inner-5 i{
+ font-size: 50px;
+ border: 1px solid #f4f4ff;
+ border-radius: 100px;
+ background: #f4f4ff;
+ padding: 15px 20px;
+
+}
+
+.our-app .app-inner-6 i{
+ font-size: 50px;
+ border: 1px solid #fdeee4;
+ border-radius: 100px;
+ background: #fdeee4;
+ padding: 15px 18px;
+
+}
+
+.our-app .app-inner h6{
+ padding: 25px 0px 5px;
+}
+
+.our-app .app-inner p{
+padding: 0px 10%;
+}
+
+/*  our app section CSS end*/
+
+/*   built section CSS start*/
+.built-section{
+
+}
+
+.built-section .built-heading{
+    padding: 70px 10%
+}
+
+.built-section .built-heading h4{
+ width: 60%;
+}
+
+.built-section .built-heading p{
+ width: 80%;
+}
+
+.built-section .built-inner{
+ padding-left: 20%;
+}
+
+.built-section .built-inner1 i{
+    font-size: 50px;
+    border: 1px solid var(--pink2);
+    border-radius: 100px;
+    background: var(--pink2);
+    padding: 15px;
+   
+   }
+
+   .built-section .built-inner2 i{
+    font-size: 50px;
+    border: 1px solid var(--sobuj2);
+    border-radius: 100px;
+    background: var(--sobuj2);
+    padding: 15px;
+      
+ }
+
+.built-section .built-inner3 i{
+    font-size: 50px;
+    border: 1px solid #fff6d3;
+    border-radius: 100px;
+    background: #fff6d3;
+    padding: 15px;
+         
+}
+
+    .built-section .built-inner4 i{
+        font-size: 50px;
+        border: 1px solid #f4f4ff;
+        border-radius: 100px;
+        background: #f4f4ff;
+        padding: 15px 20px;
+}
+
+.built-section .built-inner h6{
+    padding: 30px 0px 10px;
+}
+
+.built-section .built-inner p{
+   width: 90%;
+}
+
+
+.built-section .built-img{
+    position: relative;
+}
+
+.built-section .built-img .f1{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: -100px;
+}
+
+.built-section .built-img .f1 img{
+    height: 100vh;
+}
+
+.built-section .built-img .f2{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 230px;
+   
+}
+
+.built-section .built-img .f2 img{
+    height: 110vh;
+   
+}
+
+.built-section .btns{
+   margin: 40px 0px 0px 70px;
+   
+}
+
+.built-section .btns a{
+   
+   padding: 10px 35px;
+}
+
+
+/*   built section CSS end*/
+
+/*   extra-charges section CSS start*/
+.extra-charges{
+
+border-bottom: 2px solid #f4f4f4;
+padding-bottom: 80px;
+}
+
+.extra-charges .charges-heading{
+ padding: 50px 0px;
+ text-align: center;
+}
+
+.extra-charges .charges-heading h4{
+padding: 0px 20%;
+}
+
+.extra-charges .charges-heading p{
+    padding: 25px 21%;
+}
+
+.extra-charges .charges-heading .btn{
+ 
+ border-radius: 30px;
+   border: 2px solid #ebebeb;
+   padding: 13px 2px;
+ 
+}
+
+.extra-charges .charges-heading .btn1{
+ padding: 12px 28px;
+ background: var(--btn);
+ border-radius: 30px;
+ font-weight: bold;
+ color: var(--sada);
+}
+
+.extra-charges .charges-heading .btn2{
+   padding: 0px 25px;
+   color: #898a8e;
+   font-weight: 500;
+   
+}
+
+.extra-charges .ec-card1{
+ margin-left: 42%;
+ border-radius: 10px;
+ width: 55%;
+ text-align: center; 
+ box-shadow: 0px 20px 20px 20px #f8f9fa;
+}
+
+.extra-charges .ec-card .ec-card-header{
+    background:#f4f6f9;
+    border-radius: 10px 10px 0px 0px;
+    transition: 0.5s;
+    
+    
+}
+
+.extra-charges .ec-card:hover .ec-card-header{
+    background:#7ea2da;
+    transition: 0.5s;
+    color: #eaf9ff;
+    
+}
+
+.extra-charges .ec-card .ec-card-header h1{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    transition: 0.5s;
+}
+
+.extra-charges .ec-card:hover .ec-card-header h1, .extra-charges .ec-card:hover .ec-card-header h1 span{
+    transition: 0.5s;
+    color: #eaf9ff;
+    
+}
+
+.extra-charges .ec-card .ec-card-header h1 span{
+    font-size: 20px;
+    color: #898a8e;
+    font-style: italic;
+    transition: 0.5s;
+}
+
+.extra-charges .ec-card .ec-card-header h6{
+    transition: 0.5s;  
+}
+
+.extra-charges .ec-card:hover .ec-card-header h6{
+    transition: 0.5s;
+    color: #e98b20;
+}
+
+.extra-charges .ec-card .ec-card-header p{
+    padding-bottom: 30px;
+    color: #898a8e;
+    transition: 0.5s;
+}
+
+.extra-charges .ec-card:hover .ec-card-header p{
+    transition: 0.5s;
+    color: #f3d931;
+}
+
+.extra-charges .ec-card .ec-card-footer{
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.extra-charges .ec-card .ec-card-footer p{
+    
+}
+
+.extra-charges .ec-card .ec-card-footer .ec-btn{
+    padding: 20px 0px;
+}
+
+.extra-charges .ec-card .ec-card-footer .ec-btn a{
+    padding: 15px 30px;
+    color: var(--sada);
+    border: 1px solid var(--btn);
+    background: var(--btn);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.extra-charges .ec-card:hover .ec-card-footer .ec-btn a{
+    color: var(--btn);
+    border: 1px solid var(--komola);
+    background: var(--komola);
+    transition: 0.5s;
+}
+
+
+
+.extra-charges .ec-card2{
+    
+    border-radius: 10px;
+    width: 55%;
+    text-align: center;
+    /* box-shadow: 0px 20px 20px 20px #f8f9fa; */
+    border:1px solid #ebebeb;
+   }
+   
+   .extra-charges .ec-card2 .ec-card-header{
+       background:#f4f6f9;
+       border-radius: 10px 10px 0px 0px;
+       
+       
+   }
+   
+   .extra-charges .ec-card2 .ec-card-header h1{
+       padding-top: 50px;
+       padding-bottom: 20px;
+   }
+   
+   .extra-charges .ec-card2 .ec-card-header h1 span{
+       font-size: 20px;
+       color: #898a8e;
+       font-style: italic;
+   }
+   
+   .extra-charges .ec-card2 .ec-card-header h6{
+       
+   }
+   
+   .extra-charges .ec-card2 .ec-card-header p{
+       padding-bottom: 30px;
+       color: #898a8e;
+   }
+   
+   .extra-charges .ec-card2 .ec-card-footer{
+       padding-bottom: 25px;
+       padding-top: 10px;
+   }
+   
+   .extra-charges .ec-card .ec-card-footer p{
+       
+   }
+   
+   .extra-charges .ec-card2 .ec-card-footer .ec-btn{
+    padding: 20px 0px 35px;
+}
+   
+   .extra-charges .ec-card .ec-card-footer .ec-btn a{
+       padding: 15px 30px;
+       color: var(--sada);
+       border: 1px solid var(--btn);
+       background: var(--btn);
+       border-radius: 30px;
+       font-weight: 600;
+   }
+   
+   .extra-charges .ec-card2 .ec-card-footer a{
+       color: #4223f9;
+       
+   }
+
+
+
+/*   extra-charges section CSS end*/
+
+/*   Satisfaction section CSS start*/
+
+.Satisfaction{
+ margin: 140px 0;
+}
+
+.Satisfaction .Satisfaction-img .f1{
+    margin-top: 140px;
+}
+
+.Satisfaction .Satisfaction-inner{
+   
+}
+
+.Satisfaction .Satisfaction-inner h3{
+    width: 80%;
+    padding-bottom: 15px;
+}
+
+.Satisfaction .Satisfaction-inner .si-head p{
+    width: 85%;
+}
+
+.Satisfaction .Satisfaction-inner ul{
+    margin-left: -35px;
+}
+
+.Satisfaction .Satisfaction-inner ul li{
+   color: #ffcc00;
+   padding: 3px;
+   font-size: 20px;
+  
+}
+
+.Satisfaction .Satisfaction-inner h6{
+   padding-bottom: 10px;
+}
+
+.Satisfaction .Satisfaction-inner p{
+    width: 95%;
+}
+
+.Satisfaction .Satisfaction-inner .profile{
+  display: flex; 
+}
+
+.Satisfaction .Satisfaction-inner .profile .p-img{
+   
+}
+
+.Satisfaction .Satisfaction-inner .profile .p-img img{
+   
+}
+
+.Satisfaction .Satisfaction-inner .profile .p-inner{
+   margin-left: 15px;
+   margin-top: 25px;
+}
+
+.Satisfaction .Satisfaction-inner .profile .p-inner h6{
+    font-size: 18px;
+    margin-bottom: -5px;
+}
+
+.Satisfaction .Satisfaction-inner .profile .p-inner p{
+   font-size: 18px;
+   color: #616368;
+   width: 100%;
+}
+
+/*   Satisfaction section CSS end*/
+
+/*   Frequently section CSS start*/
+    .Frequently{
+        margin-bottom: 100px;
+    }
+
+    .Frequently .fr-heading{
+        text-align: center;
+    }
+
+    .Frequently .fr-heading h3{
+        
+    }
+
+    .Frequently .fr-heading p{
+        padding: 20px 21%;
+
+    }
+
+    .accordion{
+        padding: 0px 10%;
+        border: none;
+        margin-top: 50px;
+    }
+
+    .accordion-body {
+        background: #f5f7fa;
+        border: none;
+        padding-bottom: 30px;
+    }
+
+    .accordion-body p{
+        padding: 10px 2%;
+    }
+
+    .accordion-button {
+        background: #f5f7fa;
+        border: none;
+    }
+
+    .accordion-button::after {
+        content: "";
+        background-image: url(../img/plus.png);
+    }
+
+    .accordion-button:not(.collapsed)::after {
+        background-image:none ;
+    }
+
+    .accordion-button:not(.collapsed) {
+        background: #f5f7fa;
+    }
+
+    .accordion-item {
+        padding-bottom: 8px;
+        border: none;
+        border-radius: 0%;
+    }
+
+    .accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
+        border: none;
+    }
+
+
+/*   Frequently section CSS end*/
+
+/*   Download  section CSS start*/
+.download{
+ padding-top: 30px;
+ border-top: 2px solid #f4f4f4;
+}
+
+.download .d-inner{
+ margin-left: 5%;
+ margin-top: 10px;
+}
+
+.download .d-inner h2{
+
+}
+
+.download .d-inner p{
+ width: 98%;
+ padding: 15px 0px 15px;
+}
+
+.download .d-inner .d-inner-pic{
+ margin-top: 30px;
+}
+
+.download .d-inner .d-inner-pic .p1{
+ margin-right: 30px;
+}
+
+.download .d-inner .d-inner-pic .p2{
+
+}
+
+
+/*   Download  section CSS end*/
+
+/*   Footer  section CSS start*/
+footer{
+    background: #09142e;
+    padding: 100px 0px;
+}
+
+footer .footer-inner{
+    text-align: center;
+}
+
+footer .footer-inner h5{
+    color: var(--komola);
+}
+
+footer .footer-inner h5 span{
+    color: var(--sada);
+}
+
+footer .footer-inner .ft-nav{
+    padding: 50px 0% 30px 30%;
+    display: flex;
+}
+
+footer .footer-inner .ft-nav li a{
+    margin: 20px;
+    color: var(--sada);
+    font-size: 16px;
+}
+
+footer .footer-inner .ft-icon{
+    display: flex;
+    padding: 0px 0px 50px 43%; 
+}
+
+footer .footer-inner .ft-icon li i{
+    color: #273043;
+    font-size: 30px;
+    margin: 10px;
+}
+
+footer .footer-inner .ft-span{
+    color: #3d465a;
+    font-size: 14px;
+}
+
+
+/*   Footer  section CSS end*/
